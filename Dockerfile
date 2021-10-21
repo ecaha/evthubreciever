@@ -19,5 +19,3 @@ COPY src/ /app
 WORKDIR /app
 
 CMD ["python", "./recv_async.py"]
-
-#docker PAT f23d19ec-e26e-4e1f-91fd-5da7eac3ff21
